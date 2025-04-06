@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  font-size: 14px;
+}
+
+.container .header {
+  font-size: 18px;
+}
+
+.container .shop-list {
+  list-style: none;
+  margin-left: -15px;
+}
+
+.container .shop-list li.item {
+  color: green;
+}
+
+.container .content ol.shop-list li.item {
+  color: blue;
+}
+
+.container .shop-list .item:nth-child(even) {
+  background-color: #f0f0f0;
+}
